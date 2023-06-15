@@ -75,11 +75,11 @@ def combine_frames_and_audio(input_folder, video_output_path, fps):
 
 def main():
     # Provide the path to your video file and the output folder for frames
-    input_video_path = "/SDP_TEST_VIDEO.mp4"
-    split_folder_path = "/output_folder"
-    output_video_path = "/SDP_generated.mp4"
+    input_video_path = "SDP_TEST_VIDEO.mp4"
+    split_folder_path = "content/output_folder"
+    output_video_path = "content/SDP_generated.mp4"
     fps = 30.0
-
+    
     # Split the video into frames and audio
     print("----------STARTED-SPLITTING--------")
     split_video(input_video_path, split_folder_path)
